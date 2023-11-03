@@ -1,0 +1,65 @@
+/****************************************/
+/*   autor:Jacinto Rosales Fernández    */
+/*   titulo: Receta Porra antequerana   */
+/*   fecha: 20-10-2023                  */
+/****************************************/
+
+
+
+
+
+
+
+@font-face {
+    font-family: titulo ;
+    src: url();
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+*{box-sizing: border-box;} /*el witdth incluye el padding */ 
+
+
+body{background-color: #ffffff;color: rgb(0, 0, 0);}
+#wrapper{background-color: #ffffff;
+
+background-image: url(../img/d2de215f6027f65cb124f85a8cc210cb.jpg);
+background-size: 50%;}
+
+
+
+
+
+blockquote{border-left: 3.5px solid rgb(255, 175, 2);
+text-align: left;
+font-style: italic;
+padding: 10px;
+background-color: rgba(241, 199, 108, 0.404);}
+
+
+
+dt{font-weight: bold;color: #ff9102;
+    font: size 1.2em;}
+
+h1{border: 2px solid rgb(255, 187, 0);
+    text-align: center;
+border-radius: 0px 40px 40px 40px;
+box-shadow: 15px 15px 0px ;}
+#foto {width: 50%;
+        margin: auto;
+    display: block;}
+
+
+
+    /**************************+ gestion de la responsividad**************************/
+
+    @media only screen  and (width<750px) {
+        #wrapper {width: 95%;
+            background-color: rgb(238, 255, 191);}
+
+    }
+        
+    }
